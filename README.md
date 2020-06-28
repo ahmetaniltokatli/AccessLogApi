@@ -14,7 +14,7 @@ Projeyi klonladıktan sonra aşağıdaki adımları uygulayarak projeyi lokalini
 
 -php artisan passport:install => Token yapısı için kullanıdığımız passport'un şifreleme anahtarlarını içeren personal access and password grant datalarını oluşturur.
 
--php artisan serve => Projeyi ayağa kaldırabilirsiniz veya kullandığınız web sunucusunun ayarlarını yapılandırıp projeyi çalıştırabilirsiniz.
+-php artisan serve => Artisan komutu ile serve edebilirsiniz.
 
 Tüm isteklerde Header da Accept: application/json gönderilmeli.
 
