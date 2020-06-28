@@ -1,3 +1,5 @@
+Log yapısını daily olarak ayarladığım için her request, request action, ip ve date olarak storage/log altına loglanıyor. Tabii loglama için ayrı yapılar da düşünülebilirdi. İşler daha da büyüdüğü zaman MongoDB veya ElasticSearch kullanılabilirdi. Ama ben burada ufak bir yapı olduğu için storage da tuttum. Bunun için bir middleware yazıldı. Her istekte önce burası çalışıyor ve logu yazıyor, sonra işlemine devam ediyor.Redis örneği için de basit bir metod yazdım. Metod sadece user metodunu çalıştırdığınız zaman Redis'e user'ın name ve mail bilgisini yazıyor. GetUserRedis metodu ise redisten bu bilgileri okuyup json olarak dönüyor.
+
 Projeyi klonladıktan sonra aşağıdaki adımları uygulayarak projeyi lokalinizde ayağı kaldırabilirsiniz. 
 
 -Proje dizinine gidilir.
